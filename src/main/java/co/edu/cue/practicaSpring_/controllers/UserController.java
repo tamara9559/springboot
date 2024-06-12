@@ -34,7 +34,7 @@ public class UserController {
     public User getUserById(@PathVariable String id) throws BadRequestException {
         if (id.equalsIgnoreCase("1")){
             return User.builder()
-                   .id(1L)
+                   //.id(1L)
                    .name("Monica")
                    .age(33)
                    .cellphone("1234")

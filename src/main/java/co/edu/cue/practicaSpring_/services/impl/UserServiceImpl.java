@@ -1,7 +1,6 @@
 package co.edu.cue.practicaSpring_.services.impl;
 
 import co.edu.cue.practicaSpring_.domain.model.User;
-import co.edu.cue.practicaSpring_.repositories.UserRepository;
 import co.edu.cue.practicaSpring_.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
