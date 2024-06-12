@@ -16,17 +16,9 @@ import java.util.List;
 public class CategoryRepositoryImpl implements Repository<CategoryDto> {
 
     @Override
-    public List<ProductDto> list() throws SQLException {
-        List<CategoryDto> categorias = new ArrayList<>();
-        try (Statement stmt = conn.createStatement();
-             ResultSet rs = stmt.executeQuery("SELECT * FROM categoria")) {
-            while (rs.next()) {
-                Category categoria = getCategory(rs);
-                CategoryDto categoriaDto = CategoryMapper.mapFrom(categoria);
-                categorias.add(categoriaDto);
-            }
-        }
-        return categorias;
+    public List<ProductDto> list() {
+        String query = "FROM User";
+        return entityManager.createQuery(query).getResultList();
     }
 
     @Override

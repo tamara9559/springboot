@@ -1,12 +1,13 @@
 package co.edu.cue.practicaSpring_.services;
 
 import co.edu.cue.practicaSpring_.domain.model.User;
+import co.edu.cue.practicaSpring_.domain.model.Users;
 
 import java.util.List;
 
 public interface UserService {
 
-    List<User> getUsers();
+    List<Users> getUsers();
     void removeUser(Long id);
-    void addUser(User user);
+    void addUser(Users user);
 }
