@@ -1,10 +1,12 @@
 package co.edu.cue.practicaSpring_.mapping.mappers;
 
 
-import co.edu.co.spring.demo.domain.model.Reservation;
-import co.edu.co.spring.demo.domain.model.Transaction;
-import co.edu.co.spring.demo.mapping.DTO.TransactionsDTO;
-import co.edu.co.spring.demo.repository.ReservationsRepository;
+
+
+import co.edu.cue.practicaSpring_.domain.model.Reservation;
+import co.edu.cue.practicaSpring_.domain.model.Transaction;
+import co.edu.cue.practicaSpring_.mapping.DTO.TransactionsDTO;
+import co.edu.cue.practicaSpring_.repository.ReservationsRepository;
 
 import java.time.Instant;
 

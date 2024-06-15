@@ -1,4 +1,4 @@
-package co.edu.co.spring.demo.mapping.DTO;
+package co.edu.cue.practicaSpring_.mapping.DTO;
 
 import jakarta.validation.constraints.NotNull;
 import lombok.Builder;

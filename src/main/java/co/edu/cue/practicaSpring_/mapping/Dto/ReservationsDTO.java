@@ -1,4 +1,4 @@
-package co.edu.co.spring.demo.mapping.DTO;
+package co.edu.cue.practicaSpring_.mapping.DTO;
 
 import jakarta.validation.constraints.Future;
 import jakarta.validation.constraints.FutureOrPresent;
@@ -8,7 +8,7 @@ import lombok.Builder;
 import java.time.LocalDate;
 
 @Builder
-public record ReservationsDTO(@NotNull(message = "User ID cannot be null")
+public record  ReservationsDTO(@NotNull(message = "User ID cannot be null")
                               Integer userId,
 
                               @NotNull(message = "Vehicle ID cannot be null")

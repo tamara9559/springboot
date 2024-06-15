@@ -1,7 +1,8 @@
 package co.edu.cue.practicaSpring_.controllers;
 
-import co.edu.co.spring.demo.mapping.DTO.UserDTO;
-import co.edu.co.spring.demo.service.UserService;
+
+import co.edu.cue.practicaSpring_.mapping.DTO.UserDTO;
+import co.edu.cue.practicaSpring_.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
