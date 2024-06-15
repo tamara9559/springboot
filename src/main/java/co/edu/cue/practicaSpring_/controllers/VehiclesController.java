@@ -1,7 +1,8 @@
-package co.edu.co.spring.demo.controllers;
+package co.edu.cue.practicaSpring_.controllers;
 
-import co.edu.co.spring.demo.mapping.DTO.VehiclesDTO;
-import co.edu.co.spring.demo.service.VehiclesService;
+
+import co.edu.cue.practicaSpring_.mapping.DTO.VehiclesDTO;
+import co.edu.cue.practicaSpring_.service.VehiclesService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

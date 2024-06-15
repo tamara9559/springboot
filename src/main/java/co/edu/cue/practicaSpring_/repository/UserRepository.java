@@ -1,7 +1,8 @@
-package co.edu.co.spring.demo.repository;
+package co.edu.cue.practicaSpring_.repository;
 
 
-import co.edu.co.spring.demo.domain.model.User;
+
+import co.edu.cue.practicaSpring_.domain.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

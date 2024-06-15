@@ -1,4 +1,4 @@
-package co.edu.co.spring.demo.mapping.mappers;
+package co.edu.cue.practicaSpring_.mapping.mappers;
 
 
 import co.edu.co.spring.demo.domain.model.Reservation;

@@ -1,7 +1,8 @@
-package co.edu.co.spring.demo.controllers;
+package co.edu.cue.practicaSpring_.controllers;
 
-import co.edu.co.spring.demo.mapping.DTO.ReservationsDTO;
-import co.edu.co.spring.demo.service.ReservationsService;
+
+import co.edu.cue.practicaSpring_.mapping.DTO.ReservationsDTO;
+import co.edu.cue.practicaSpring_.service.ReservationsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

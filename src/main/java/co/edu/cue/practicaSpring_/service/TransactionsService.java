@@ -1,4 +1,4 @@
-package co.edu.co.spring.demo.service;
+package co.edu.cue.practicaSpring_.service;
 
 import co.edu.co.spring.demo.domain.model.Transaction;
 import co.edu.co.spring.demo.mapping.DTO.TransactionsDTO;

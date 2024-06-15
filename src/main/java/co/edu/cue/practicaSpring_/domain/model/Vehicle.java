@@ -1,4 +1,4 @@
-package co.edu.co.spring.demo.domain.model;
+package co.edu.cue.practicaSpring_.domain.model;
 
 import jakarta.persistence.*;
 import lombok.*;

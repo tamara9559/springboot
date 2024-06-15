@@ -1,4 +1,4 @@
-package co.edu.co.spring.demo.controllers;
+package co.edu.cue.practicaSpring_.controllers;
 
 import co.edu.co.spring.demo.mapping.DTO.UserDTO;
 import co.edu.co.spring.demo.service.UserService;
