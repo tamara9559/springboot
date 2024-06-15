@@ -1,9 +1,10 @@
 package co.edu.cue.practicaSpring_.service;
 
-import co.edu.co.spring.demo.domain.model.Vehicle;
-import co.edu.co.spring.demo.mapping.DTO.VehiclesDTO;
-import co.edu.co.spring.demo.mapping.mappers.VehiclesMapper;
-import co.edu.co.spring.demo.repository.VehiclesRepository;
+
+import co.edu.cue.practicaSpring_.domain.model.Vehicle;
+import co.edu.cue.practicaSpring_.mapping.DTO.VehiclesDTO;
+import co.edu.cue.practicaSpring_.mapping.mappers.VehiclesMapper;
+import co.edu.cue.practicaSpring_.repository.VehiclesRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

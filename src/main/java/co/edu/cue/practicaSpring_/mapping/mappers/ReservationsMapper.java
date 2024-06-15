@@ -1,9 +1,10 @@
 package co.edu.cue.practicaSpring_.mapping.mappers;
 
-import co.edu.co.spring.demo.domain.model.Reservation;
-import co.edu.co.spring.demo.mapping.DTO.ReservationsDTO;
-import co.edu.co.spring.demo.repository.UserRepository;
-import co.edu.co.spring.demo.repository.VehiclesRepository;
+
+import co.edu.cue.practicaSpring_.domain.model.Reservation;
+import co.edu.cue.practicaSpring_.mapping.DTO.ReservationsDTO;
+import co.edu.cue.practicaSpring_.repository.UserRepository;
+import co.edu.cue.practicaSpring_.repository.VehiclesRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

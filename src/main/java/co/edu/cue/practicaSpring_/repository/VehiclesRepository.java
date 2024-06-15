@@ -1,6 +1,7 @@
 package co.edu.cue.practicaSpring_.repository;
 
-import co.edu.co.spring.demo.domain.model.Vehicle;
+
+import co.edu.cue.practicaSpring_.domain.model.Vehicle;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

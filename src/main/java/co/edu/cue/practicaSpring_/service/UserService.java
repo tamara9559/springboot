@@ -1,9 +1,10 @@
 package co.edu.cue.practicaSpring_.service;
 
-import co.edu.co.spring.demo.domain.model.User;
-import co.edu.co.spring.demo.mapping.DTO.UserDTO;
-import co.edu.co.spring.demo.mapping.mappers.UserMapper;
-import co.edu.co.spring.demo.repository.UserRepository;
+
+import co.edu.cue.practicaSpring_.domain.model.User;
+import co.edu.cue.practicaSpring_.mapping.DTO.UserDTO;
+import co.edu.cue.practicaSpring_.mapping.mappers.UserMapper;
+import co.edu.cue.practicaSpring_.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

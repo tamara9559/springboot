@@ -1,10 +1,11 @@
 package co.edu.cue.practicaSpring_.service;
 
-import co.edu.co.spring.demo.domain.model.Transaction;
-import co.edu.co.spring.demo.mapping.DTO.TransactionsDTO;
-import co.edu.co.spring.demo.mapping.mappers.TransactionsMapper;
-import co.edu.co.spring.demo.repository.ReservationsRepository;
-import co.edu.co.spring.demo.repository.TransactionsRepository;
+
+import co.edu.cue.practicaSpring_.domain.model.Transaction;
+import co.edu.cue.practicaSpring_.mapping.DTO.TransactionsDTO;
+import co.edu.cue.practicaSpring_.mapping.mappers.TransactionsMapper;
+import co.edu.cue.practicaSpring_.repository.ReservationsRepository;
+import co.edu.cue.practicaSpring_.repository.TransactionsRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

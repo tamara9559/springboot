@@ -1,7 +1,8 @@
-package co.edu.co.spring.demo.mapping.mappers;
+package co.edu.cue.practicaSpring_.mapping.mappers;
 
-import co.edu.co.spring.demo.domain.model.User;
-import co.edu.co.spring.demo.mapping.DTO.UserDTO;
+
+import co.edu.cue.practicaSpring_.domain.model.User;
+import co.edu.cue.practicaSpring_.mapping.DTO.UserDTO;
 
 public class UserMapper {
 

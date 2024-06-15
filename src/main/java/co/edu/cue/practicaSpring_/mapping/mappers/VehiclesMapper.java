@@ -1,7 +1,8 @@
-package co.edu.co.spring.demo.mapping.mappers;
+package co.edu.cue.practicaSpring_.mapping.mappers;
 
-import co.edu.co.spring.demo.domain.model.Vehicle;
-import co.edu.co.spring.demo.mapping.DTO.VehiclesDTO;
+
+import co.edu.cue.practicaSpring_.domain.model.Vehicle;
+import co.edu.cue.practicaSpring_.mapping.DTO.VehiclesDTO;
 
 public class VehiclesMapper {
 
